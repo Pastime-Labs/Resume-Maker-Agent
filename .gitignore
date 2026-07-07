@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 
+# Custom Project Files
+# 
+
+# Ignore crewAi generated resumes and sample text files
+tailored_resume_output.md
+target_job_description.txt
+*.md.tmp
+
+# Ignore crewAi/Sqlite execution memory databases (if generated)
+*.sqlite3
+*.db
