@@ -45,5 +45,6 @@ The workflow is treated like a modern corporate assembly line. The output of one
 1. Clone the Repo
 2. Install the Requirements(pip install -r requirements.txt)
 3. Add Your API Key
-   (**If running locally**: Duplicate the .env.example file, rename it to .env, and paste your key , GEMINI_API_KEY=your_key)
-   (**If running in Google colab**: Add your key to Colab's Secrets panel with the name GEMINI_API_KEY and toggle on "Notebook access".)
+   (**If running locally**: Duplicate the .env.example file, rename it to .env, and put your key GEMINI_API_KEY=your_key)
+   
+   (**If running in Google colab**: Add your key to Colab's Secrets panel with the name GEMINI_API_KEY and turn on "notebook access")
